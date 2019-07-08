@@ -1,0 +1,88 @@
+# 01-Springboot简介入门配置项目准备
+
+* 重试幂等
+  * 支付
+* 乐观锁
+  * 秒杀
+* 基础平台
+* header
+* jvm调优
+* 堆
+  * 新生代
+    * 复制算法
+  * 老年代
+    * 标记压缩法
+* 栈
+* 线程
+  * sync
+  * voliate
+  * lock
+  * condition
+  * wait
+  * notify
+  * countdown
+* 内存模型
+* 并发修改
+* 网络编程
+  * io
+  * nio
+  * aio
+  * mina
+    * 网络编程模型
+  * netty
+  * 阻塞非阻塞
+* 数据库
+  * 大数据量不要使用子查询
+  * join
+  * 索引
+  * 复合索引
+  * 表分区
+* 主流的技术
+  * spring.io
+  * spring状态机
+* hadoop
+* hive
+* hbase
+* zookeeper
+* fastdfs
+* nginx
+* haproxy
+* lvs
+* strom
+* spark
+* disruptor
+* activemq
+* zeromq
+* rabbitmq
+* rocketmq
+* kafka
+* redis
+* memcached
+* mongodb
+* 12306
+  * 跨库join
+* solr
+* elk
+* zeroice
+* bus
+* 定时任务，消息重发
+* tcc 柔性事务
+* 共享服务器
+* jekins 自动打包发布
+* 时间同步
+* 补偿成本
+* 允许读不一致 不允许写不一致
+* 重试机制 最终一致性
+* 规避数据不一致的时间段
+* 即时任务
+* 延时任务
+* H2
+  * 自定义函数
+* hibernate-validate
+
+## spirngboot
+
+* parent
+* 启动类
+* `@SpringBootApplication`
+* web组件
