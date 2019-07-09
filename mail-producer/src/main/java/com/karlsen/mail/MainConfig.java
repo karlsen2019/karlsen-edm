@@ -13,6 +13,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @Configuration
 @ComponentScan({"com.karlsen.mail.*"})
-@MapperScan(basePackages = "com.bhz.mail.mapper")
+@MapperScan(basePackages = "com.karlsen.mail.mapper")
 public class MainConfig {
 }
