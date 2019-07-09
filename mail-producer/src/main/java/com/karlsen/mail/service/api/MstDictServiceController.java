@@ -19,7 +19,7 @@ public class MstDictServiceController {
     private MstDictService mstDictService;
 
     @RequestMapping("mstDictList")
-    public List<MstDict> mstDictList() {
-        return mstDictService.mstDictList();
+    public List<MstDict> mstDictList(int pageNum, int pageSize) {
+        return mstDictService.mstDictList(pageNum, pageSize);
     }
 }

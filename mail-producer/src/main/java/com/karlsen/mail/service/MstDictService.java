@@ -1,5 +1,6 @@
 package com.karlsen.mail.service;
 
+import com.github.pagehelper.PageHelper;
 import com.karlsen.mail.config.database.ReadOnlyConnection;
 import com.karlsen.mail.entity.MstDict;
 import com.karlsen.mail.mapper.MstDictMapper;
@@ -18,7 +19,8 @@ public class MstDictService {
     private MstDictMapper mstDictMapper;
 
     @ReadOnlyConnection
-    public List<MstDict> mstDictList() {
+    public List<MstDict> mstDictList(int pageNum, int pageSize) {
+        PageHelper.startPage(pageNum, pageSize);
         return mstDictMapper.selectAll();
     }
 }
