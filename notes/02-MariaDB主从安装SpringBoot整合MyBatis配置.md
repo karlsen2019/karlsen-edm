@@ -10,7 +10,6 @@
 * swagger
   * curl 参数
 * json空值忽略 
-![21e2ee9c.png](attachments\21e2ee9c.png)
 * 统一异常处理
 * 多线程异步
   * 线程拒绝策略
